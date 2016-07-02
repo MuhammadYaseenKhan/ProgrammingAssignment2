@@ -44,7 +44,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cacheSolve(x) takes an cached inverse matrix as an input argument
+## cacheSolve(x) takes a matrix 'x' as an input argument
 ## and returns a matrix that is the inverse of 'x', such that;
 ## it tries to access the cached value of 'im' (i.e. the inverse of matrix using get.im())
 ## if the returned value is NULL, then it accesses the matrix 'x' and executes the solve() function over it,
